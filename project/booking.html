@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<style media="screen">
+body{
+  background: url(images/table.jpg);
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+form{margin: 0 auto;
+align:center;
+color: white;
+padding-left: 500px;}
+
+  img{height: 100%;
+  width: 100%;
+}
+
+.book {
+
+    width: 100%;
+height: 1500px;
+
+}
+
+.book-card {
+    width: 50%;
+    background-color: #fff;
+    margin: 6rem auto;
+    border-radius: 50px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    padding-bottom: 5rem;
+}
+
+.book-card h3 {
+  align:center;
+    margin-bottom: 5rem;
+}
+
+.form-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+.heading{padding-left: 500px;
+  padding-right: 550px
+color:white;
+font-size: xxx-large;}
+
+input {
+    border: transparent;
+    border-bottom: 2px solid #ccc;
+    transition: all 0.8s;
+    width: 70%;
+}
+
+input:focus {
+    border-bottom: 2px solid #ff7417;
+    outline: none;
+}
+
+select {
+    border: transparent;
+    border-bottom: 2px solid #ccc;
+}
+
+select:focus {
+    outline: none;
+}
+
+.btn-book {
+    display: flex;
+    justify-content: center;
+color:black;
+    font-size: 1.4rem;
+}
+
+.container-fluid{height:1300px;}
+
+.section-subtitle{padding-left: 100px;}
+
+.section-title {padding-left: 300px;
+    padding-top: 90px;}
+
+</style>
+  </head>
+  <body>
+    <section class="book" id="reservation">
+      <div class="heading"><h1 style="color:#e8e9a1">Reserve your seat</h1></div>
+                  <div class="container-fluid">
+                      <div class="book-card">
+                          <h2 class="section-title book-title">
+                              Book your Table
+                          </h2>
+                          <h3 class="section-subtitle">
+                              We will send your booking details on your registered email address
+                          </h3>
+                          <div class="two-columns-grid">
+                              <div class="form-group">
+                                  <input
+                                      type="text"
+                                      id="first"
+                                      class="input"
+                                      placeholder="First Name*"
+                                  />
+                              </div>
+                              <div class="form-group">
+                                  <input
+                                      type="text"
+                                      id="last"
+                                      class="input"
+                                      placeholder="Last Name*"
+                                  />
+                              </div>
+                          </div>
+
+                          <div class="two-columns-grid">
+                              <div class="form-group">
+                                  <input
+                                      type="email"
+                                      id="email"
+                                      class="input"
+                                      placeholder="E-mail Address*"
+                                  />
+                              </div>
+                              <div class="form-group">
+                                  <input
+                                      type="text"
+                                      id="phone"
+                                      class="input"
+                                      placeholder="Phone Number"
+                                  />
+                              </div>
+                          </div>
+
+                          <div class="three-columns-grid">
+                              <div class="form-group">
+                                  <input type="date" id="date" />
+                              </div>
+                              <div class="form-group">
+                                Select time:
+                                  <select name="time" id="time">
+                                      <option value="">9:00</option>
+                                      <option value="">9:30</option>
+                                      <option value="">10:00</option>
+                                      <option value="">10:30</option>
+                                      <option value="">11:00</option>
+                                      <option value="">11:30</option>
+                                      <option value="">12:00</option>
+                                      <option value="">12:30</option>
+                                      <option value="">13:00</option>
+                                      <option value="">13:30</option>
+                                      <option value="">14:00</option>
+                                      <option value="">14:30</option>
+                                      <option value="">15:00</option>
+                                      <option value="">15:30</option>
+                                      <option value="">16:00</option>
+                                      <option value="">16:30</option>
+                                      <option value="">17:00</option>
+                                      <option value="">17:30</option>
+                                      <option value="">18:00</option>
+                                      <option value="">18:30</option>
+                                      <option value="">19:00</option>
+                                      <option value="">19:30</option>
+                                      <option value="">20:00</option>
+                                      <option value="">20:30</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                Choose no. of Persons:
+                                  <select name="persons" id="persons">
+                                      <option value="">Persons*</option>
+                                      <option value="">1 Person</option>
+                                      <option value="">2 Persons</option>
+                                      <option value="">3 Persons</option>
+                                      <option value="">4 Persons</option>
+                                      <option value="">5 Persons</option>
+                                      <option value="">6 Persons</option>
+                                      <option value="">7 Persons</option>
+                                      <option value="">8 Persons</option>
+                                      <option value="">9 Persons</option>
+                                      <option value="">10 Persons</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <a href="#" class="btn btn-book">Book Now</a>
+                      </div>
+                  </div>
+              </section>
+          </main>
+  </body>
+</html>
